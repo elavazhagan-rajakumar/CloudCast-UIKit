@@ -30,24 +30,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2E511A8C2F6AB5E3002EC58E /* Exceptions for "CloudCast" folder in "CloudCast" target */ = {
+		A17C76C72F7A81E5003AA1F0 /* Exceptions for "CloudCast" folder in "CloudCast" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				App/Info.plist,
 			);
 			target = 2E511A602F6AB5E2002EC58E /* CloudCast */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2E511A632F6AB5E2002EC58E /* CloudCast */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				2E511A8C2F6AB5E3002EC58E /* Exceptions for "CloudCast" folder in "CloudCast" target */,
-			);
-			path = CloudCast;
-			sourceTree = "<group>";
-		};
 		2E511A7D2F6AB5E3002EC58E /* CloudCastTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CloudCastTests;
@@ -56,6 +48,14 @@
 		2E511A872F6AB5E3002EC58E /* CloudCastUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CloudCastUITests;
+			sourceTree = "<group>";
+		};
+		A17C76BD2F7A81E5003AA1F0 /* CloudCast */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A17C76C72F7A81E5003AA1F0 /* Exceptions for "CloudCast" folder in "CloudCast" target */,
+			);
+			path = CloudCast;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +88,7 @@
 		2E511A582F6AB5E2002EC58E = {
 			isa = PBXGroup;
 			children = (
-				2E511A632F6AB5E2002EC58E /* CloudCast */,
+				A17C76BD2F7A81E5003AA1F0 /* CloudCast */,
 				2E511A7D2F6AB5E3002EC58E /* CloudCastTests */,
 				2E511A872F6AB5E3002EC58E /* CloudCastUITests */,
 				2E511A622F6AB5E2002EC58E /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2E511A632F6AB5E2002EC58E /* CloudCast */,
+				A17C76BD2F7A81E5003AA1F0 /* CloudCast */,
 			);
 			name = CloudCast;
 			packageProductDependencies = (
@@ -289,13 +289,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CloudCast/Info.plist;
+				INFOPLIST_FILE = "/Users/rajarathinamganasekarapandian/Desktop/iOS/E/CloudCast-UIKit/CloudCast/CloudCast/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,13 +322,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CloudCast/Info.plist;
+				INFOPLIST_FILE = "/Users/rajarathinamganasekarapandian/Desktop/iOS/E/CloudCast-UIKit/CloudCast/CloudCast/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
